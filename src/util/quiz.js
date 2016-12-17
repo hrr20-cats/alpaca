@@ -202,3 +202,9 @@ class Answer {
     this.isCorrect = isCorrect;
   }
 }
+
+module.exports = {
+  Game: Game,
+  Quiz: Quiz,
+  Answer: Answer
+};
